@@ -16,6 +16,7 @@ A curated list of awesome solutions and research in AI model routing. `*` indica
 - [notdiamond-0001](https://huggingface.co/notdiamond/notdiamond-0001)*: Automatically determines whether to send queries to GPT-3.5 or GPT-4.
 - [Pulze AI KNN router](https://github.com/pulzeai-oss/knn-router)*: A minimal server for generating a ranked list of targets, for a query, based on its k-nearest semantic neighbors. Written in Go.
 - [OpenRouter](https://openrouter.ai/models/openrouter/auto): Prompts will be sent to Llama 3 70B Instruct, Claude 3.5 Sonnet (self-moderated) or GPT-4o.
+- [RoRF](https://www.notdiamond.ai/blog/rorf): SOTA open-source pairwise router based on a random forest architecture.
 - [RouteLLM](https://github.com/lm-sys/RouteLLM/tree/main)*: RouteLLM is a framework for serving and evaluating LLM routers.
 - [Semantic Router](https://github.com/aurelio-labs/semantic-router)*: Route inputs to different models using semantic embeddings.
 - [Unify](https://unify.ai/): Improve quality, cost and speed by routing to the perfect model and provider for each individual prompt.
