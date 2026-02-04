@@ -10,6 +10,7 @@ A curated list of awesome solutions and research in AI model routing. Other awes
 
 *Open-source tools and software solutions for AI model routing (ordered alphabetically). `*` indicates that an entry is open source.*
 
+- [ClawRouter](https://github.com/BlockRunAI/ClawRouter)*: 14-dimension weighted scoring routes queries to the cheapest capable model across 30+ LLMs. 100% local routing in <1ms.
 - [Martian](https://www.withmartian.com/): Dynamically routes requests to the best LLM in real-time.
 - [Neutrino AI](https://www.neutrinoapp.com/): Intelligently route queries to the best-suited LLM for the prompt.
 - [Not Diamond](https://www.notdiamond.ai/): An AI model router that automatically determines which LLM is best-suited to respond to any query.
