@@ -1,30 +1,32 @@
 # awesome-ai-model-routing
+
 A curated list of awesome solutions and research in AI model routing. Other awesome lists can be found in the [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) list.
 
 - [Awesome AI model routing](#awesome-ai-model-routing)
-    - [Intelligent AI model routing](#intelligent-ai-model-routing)
-    - [AI model routing papers](#ai-model-routing-papers)
+  - [Intelligent AI model routing](#intelligent-ai-model-routing)
+  - [AI model routing papers](#ai-model-routing-papers)
 - [Contributing](#contributing)
 
 ## Intelligent AI model routing
 
-*Open-source tools and software solutions for AI model routing (ordered alphabetically). `*` indicates that an entry is open source.*
+_Open-source tools and software solutions for AI model routing (ordered alphabetically). `_` indicates that an entry is open source.\*
 
 - [Martian](https://www.withmartian.com/): Dynamically routes requests to the best LLM in real-time.
 - [Neutrino AI](https://www.neutrinoapp.com/): Intelligently route queries to the best-suited LLM for the prompt.
 - [Not Diamond](https://www.notdiamond.ai/): An AI model router that automatically determines which LLM is best-suited to respond to any query.
-- [notdiamond-0001](https://huggingface.co/notdiamond/notdiamond-0001)*: Automatically determines whether to send queries to GPT-3.5 or GPT-4.
-- [Pulze AI KNN router](https://github.com/pulzeai-oss/knn-router)*: A minimal server for generating a ranked list of targets, for a query, based on its k-nearest semantic neighbors. Written in Go.
+- [notdiamond-0001](https://huggingface.co/notdiamond/notdiamond-0001)\*: Automatically determines whether to send queries to GPT-3.5 or GPT-4.
+- [OmniRoute](https://github.com/diegosouzapw/OmniRoute)\*: Self-hostable AI gateway with 4-tier automatic fallback routing (Subscription → API Key → Cheap → Free) across 36+ providers. OpenAI-compatible API with quota tracking and multi-account round-robin.
+- [Pulze AI KNN router](https://github.com/pulzeai-oss/knn-router)\*: A minimal server for generating a ranked list of targets, for a query, based on its k-nearest semantic neighbors. Written in Go.
 - [OpenRouter](https://openrouter.ai/models/openrouter/auto): Prompts will be sent to Llama 3 70B Instruct, Claude 3.5 Sonnet (self-moderated) or GPT-4o.
 - [Requesty](https://www.requesty.ai/solution/smart-routing?github-awesome-list): Configurable smart routing algorithms to optimize your performance, cost or latency.
 - [RoRF](https://www.notdiamond.ai/blog/rorf): SOTA open-source pairwise router based on a random forest architecture.
-- [RouteLLM](https://github.com/lm-sys/RouteLLM/tree/main)*: RouteLLM is a framework for serving and evaluating LLM routers.
-- [Semantic Router](https://github.com/aurelio-labs/semantic-router)*: Route inputs to different models using semantic embeddings.
+- [RouteLLM](https://github.com/lm-sys/RouteLLM/tree/main)\*: RouteLLM is a framework for serving and evaluating LLM routers.
+- [Semantic Router](https://github.com/aurelio-labs/semantic-router)\*: Route inputs to different models using semantic embeddings.
 - [Unify](https://unify.ai/): Improve quality, cost and speed by routing to the perfect model and provider for each individual prompt.
 
 ## AI model routing papers
 
-*Research papers on AI model routing (ordered by recency)*
+_Research papers on AI model routing (ordered by recency)_
 
 - [EmbedLLM: Learning Compact Representations of Large Language Models, 2024-10-03](https://arxiv.org/abs/2410.02223): A matrix-factorization based LLM router which extracts "model embeddings" that captures LLM characteristics.
 - [RouteLLM: Learning to Route LLMs with Preference Data, 2024-07-21](https://arxiv.org/abs/2406.18665): A training framework for strong vs weak LLM routers leveraging human preference data and data augmentation.
