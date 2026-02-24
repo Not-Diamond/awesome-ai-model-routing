@@ -10,6 +10,7 @@ A curated list of awesome solutions and research in AI model routing. Other awes
 
 *Open-source tools and software solutions for AI model routing (ordered alphabetically). `*` indicates that an entry is open source.*
 
+- [Komilion](https://komilion.com): AI model sommelier that automatically routes each request to the optimal model from 400+ options, with three tiers (Frugal ~$0.004/task, Balanced, Premium council) balancing cost and quality. OpenAI SDK compatible.
 - [Martian](https://www.withmartian.com/): Dynamically routes requests to the best LLM in real-time.
 - [Neutrino AI](https://www.neutrinoapp.com/): Intelligently route queries to the best-suited LLM for the prompt.
 - [Not Diamond](https://www.notdiamond.ai/): An AI model router that automatically determines which LLM is best-suited to respond to any query.
