@@ -26,6 +26,7 @@ A curated list of awesome solutions and research in AI model routing. Other awes
 
 *Research papers on AI model routing (ordered by recency)*
 
+- [MESS+: Dynamically Learned Inference-Time LLM Routing in Model Zoos with Service Level Guarantees, 2025-05-26](https://arxiv.org/abs/2505.19947): A stochastic optimization algorithm for cost-optimal LLM request routing while providing rigorous SLA compliance guarantees.
 - [EmbedLLM: Learning Compact Representations of Large Language Models, 2024-10-03](https://arxiv.org/abs/2410.02223): A matrix-factorization based LLM router which extracts "model embeddings" that captures LLM characteristics.
 - [RouteLLM: Learning to Route LLMs with Preference Data, 2024-07-21](https://arxiv.org/abs/2406.18665): A training framework for strong vs weak LLM routers leveraging human preference data and data augmentation.
 - [MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs, 2024-07-15](https://arxiv.org/abs/2407.10834): Dynamically route each query to the optimal LLM for classification tasks.
