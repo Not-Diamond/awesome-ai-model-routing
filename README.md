@@ -10,6 +10,8 @@ A curated list of awesome solutions and research in AI model routing. Other awes
 
 *Open-source tools and software solutions for AI model routing (ordered alphabetically). `*` indicates that an entry is open source.*
 
+- [Herma](https://hermaai.com/): Intelligent model router with EV-based routing — automatically routes queries to the cheapest model that matches frontier quality. OpenAI-compatible API.
+- [herma-eval](https://github.com/Nikobar5/herma-eval)*: Benchmark toolkit that measures both cost AND quality for LLM routers. Works with any OpenAI-compatible API.
 - [Martian](https://www.withmartian.com/): Dynamically routes requests to the best LLM in real-time.
 - [Neutrino AI](https://www.neutrinoapp.com/): Intelligently route queries to the best-suited LLM for the prompt.
 - [Not Diamond](https://www.notdiamond.ai/): An AI model router that automatically determines which LLM is best-suited to respond to any query.
