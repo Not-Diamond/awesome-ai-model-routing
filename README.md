@@ -12,6 +12,7 @@ A curated list of awesome solutions and research in AI model routing. Other awes
 
 - [Martian](https://www.withmartian.com/): Dynamically routes requests to the best LLM in real-time.
 - [Neutrino AI](https://www.neutrinoapp.com/): Intelligently route queries to the best-suited LLM for the prompt.
+- [A3M Router](https://github.com/Das-rebel/a3m-router)*: Open-source LLM router with parallel multi-LLM execution across 47+ providers. Confidence-scored routing, independent benchmark validated, 62% cost savings.
 - [Not Diamond](https://www.notdiamond.ai/): An AI model router that automatically determines which LLM is best-suited to respond to any query.
 - [notdiamond-0001](https://huggingface.co/notdiamond/notdiamond-0001)*: Automatically determines whether to send queries to GPT-3.5 or GPT-4.
 - [Pulze AI KNN router](https://github.com/pulzeai-oss/knn-router)*: A minimal server for generating a ranked list of targets, for a query, based on its k-nearest semantic neighbors. Written in Go.
