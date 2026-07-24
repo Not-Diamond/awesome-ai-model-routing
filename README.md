@@ -14,6 +14,7 @@ A curated list of awesome solutions and research in AI model routing. Other awes
 - [Neutrino AI](https://www.neutrinoapp.com/): Intelligently route queries to the best-suited LLM for the prompt.
 - [Not Diamond](https://www.notdiamond.ai/): An AI model router that automatically determines which LLM is best-suited to respond to any query.
 - [notdiamond-0001](https://huggingface.co/notdiamond/notdiamond-0001)*: Automatically determines whether to send queries to GPT-3.5 or GPT-4.
+- [o10](https://www.o10.io/kyi): Inference spend control plane with eval-gated routing and Know Your Inference (KYI) governance above gateways.
 - [Pulze AI KNN router](https://github.com/pulzeai-oss/knn-router)*: A minimal server for generating a ranked list of targets, for a query, based on its k-nearest semantic neighbors. Written in Go.
 - [OpenRouter](https://openrouter.ai/models/openrouter/auto): Prompts will be sent to Llama 3 70B Instruct, Claude 3.5 Sonnet (self-moderated) or GPT-4o.
 - [Requesty](https://www.requesty.ai/solution/smart-routing?github-awesome-list): Configurable smart routing algorithms to optimize your performance, cost or latency.
