@@ -10,6 +10,7 @@ A curated list of awesome solutions and research in AI model routing. Other awes
 
 *Open-source tools and software solutions for AI model routing (ordered alphabetically). `*` indicates that an entry is open source.*
 
+- [LLM-PQR](https://github.com/Amazed-Labs/llm-pqr)*: Provider-neutral CLI that ranks local and hosted models using measured quality, reliability, latency, token rates, capabilities, and hard locality requirements.
 - [Martian](https://www.withmartian.com/): Dynamically routes requests to the best LLM in real-time.
 - [Neutrino AI](https://www.neutrinoapp.com/): Intelligently route queries to the best-suited LLM for the prompt.
 - [Not Diamond](https://www.notdiamond.ai/): An AI model router that automatically determines which LLM is best-suited to respond to any query.
