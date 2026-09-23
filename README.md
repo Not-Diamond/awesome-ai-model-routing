@@ -19,6 +19,7 @@ A curated list of awesome solutions and research in AI model routing. Other awes
 - [Requesty](https://www.requesty.ai/solution/smart-routing?github-awesome-list): Configurable smart routing algorithms to optimize your performance, cost or latency.
 - [RoRF](https://www.notdiamond.ai/blog/rorf): SOTA open-source pairwise router based on a random forest architecture.
 - [RouteLLM](https://github.com/lm-sys/RouteLLM/tree/main)*: RouteLLM is a framework for serving and evaluating LLM routers.
+- [Sabi](https://github.com/vizuh/sabi)*: Adaptive model, reasoning-effort and provider routing for coding agents, decided per round from trajectory evidence such as tool results, failures and verification instead of the first prompt.
 - [Semantic Router](https://github.com/aurelio-labs/semantic-router)*: Route inputs to different models using semantic embeddings.
 - [Unify](https://unify.ai/): Improve quality, cost and speed by routing to the perfect model and provider for each individual prompt.
 
