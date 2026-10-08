@@ -14,9 +14,12 @@ A curated list of awesome solutions and research in AI model routing. Other awes
 - [Neutrino AI](https://www.neutrinoapp.com/): Intelligently route queries to the best-suited LLM for the prompt.
 - [Not Diamond](https://www.notdiamond.ai/): An AI model router that automatically determines which LLM is best-suited to respond to any query.
 - [notdiamond-0001](https://huggingface.co/notdiamond/notdiamond-0001)*: Automatically determines whether to send queries to GPT-3.5 or GPT-4.
+- [ORBIT](https://github.com/LAMDA-Model-Reuse/ORBIT)*: Standardizes LLM routing research and budget-aware evaluation across routers and benchmarks.
 - [Pulze AI KNN router](https://github.com/pulzeai-oss/knn-router)*: A minimal server for generating a ranked list of targets, for a query, based on its k-nearest semantic neighbors. Written in Go.
 - [OpenRouter](https://openrouter.ai/models/openrouter/auto): Prompts will be sent to Llama 3 70B Instruct, Claude 3.5 Sonnet (self-moderated) or GPT-4o.
 - [Requesty](https://www.requesty.ai/solution/smart-routing?github-awesome-list): Configurable smart routing algorithms to optimize your performance, cost or latency.
+- [RouteFM](https://lamda-model-reuse.github.io/RouteFM/)*: Adapts a frozen, identity-free router to unseen tasks and candidate pools through behavioral context.
+- [RouteJudge](https://routejudge.cn/): Evaluates LLM routers through reproducible anonymous pairwise preferences under shared budgets.
 - [RoRF](https://www.notdiamond.ai/blog/rorf): SOTA open-source pairwise router based on a random forest architecture.
 - [RouteLLM](https://github.com/lm-sys/RouteLLM/tree/main)*: RouteLLM is a framework for serving and evaluating LLM routers.
 - [Semantic Router](https://github.com/aurelio-labs/semantic-router)*: Route inputs to different models using semantic embeddings.
@@ -26,6 +29,13 @@ A curated list of awesome solutions and research in AI model routing. Other awes
 
 *Research papers on AI model routing (ordered by recency)*
 
+- [Routing Should Pay for Itself: Sparse Supervision for Economical LLM Routing, 2026-09-29](https://arxiv.org/abs/2609.37402): Selectively acquires query-model feedback and measures when serving-time savings repay router supervision cost.
+- [Pretrain Once, Route Anywhere: Towards a Foundation Model for LLM Routing, 2026-09-29](https://arxiv.org/abs/2609.37362): Pretrains an identity-free router that adapts to new tasks, model pools, modalities, and context budgets without parameter updates.
+- [When LLM Routers Overpay: Strong-Model Over-Selection under Loose Budgets, 2026](https://openreview.net/forum?id=v2DOrFK8Wp): Studies why routers can over-select strong models when routing budgets become less restrictive.
+- [ORBIT: An Optimal Routing and Budgeted Inference Toolbox, 2026](https://journal.hep.com.cn/fcs/EN/10.1007/s11704-026-61310-5): Provides unified interfaces for routing benchmarks, algorithms, and budget-aware evaluation.
+- [RouteJudge: An Open Platform for Reproducible and Preference-Aware LLM Routing, 2026-06-17](https://arxiv.org/abs/2606.18774): Evaluates router decisions using anonymous pairwise user preferences and shared model pools and budgets.
+- [From Sampled Outcomes to Capability Distributions: Rethinking Supervision for LLM Routing, 2026-06-05](https://arxiv.org/abs/2606.06924): Builds risk-aware routing supervision from distributions over repeated and semantics-preserving outcomes.
+- [MMR-Bench: A Comprehensive Benchmark for Multimodal LLM Routing, 2026-01-25](https://arxiv.org/abs/2601.17814): Standardizes budget-aware routing across vision-language tasks and multimodal model pools.
 - [EmbedLLM: Learning Compact Representations of Large Language Models, 2024-10-03](https://arxiv.org/abs/2410.02223): A matrix-factorization based LLM router which extracts "model embeddings" that captures LLM characteristics.
 - [RouteLLM: Learning to Route LLMs with Preference Data, 2024-07-21](https://arxiv.org/abs/2406.18665): A training framework for strong vs weak LLM routers leveraging human preference data and data augmentation.
 - [MetaLLM: A High-performant and Cost-efficient Dynamic Framework for Wrapping LLMs, 2024-07-15](https://arxiv.org/abs/2407.10834): Dynamically route each query to the optimal LLM for classification tasks.
