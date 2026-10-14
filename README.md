@@ -20,6 +20,7 @@ A curated list of awesome solutions and research in AI model routing. Other awes
 - [RoRF](https://www.notdiamond.ai/blog/rorf): SOTA open-source pairwise router based on a random forest architecture.
 - [RouteLLM](https://github.com/lm-sys/RouteLLM/tree/main)*: RouteLLM is a framework for serving and evaluating LLM routers.
 - [Semantic Router](https://github.com/aurelio-labs/semantic-router)*: Route inputs to different models using semantic embeddings.
+- [SmartRouter](https://github.com/StepenkoAnatoli/SmartRouter): An advisory model-routing policy for coding agents with eligibility checks, bounded delegation, and local supervision; live-provider integration is experimental.
 - [Unify](https://unify.ai/): Improve quality, cost and speed by routing to the perfect model and provider for each individual prompt.
 
 ## AI model routing papers
